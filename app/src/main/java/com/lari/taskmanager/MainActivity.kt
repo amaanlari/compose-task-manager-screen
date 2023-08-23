@@ -43,6 +43,18 @@ fun TaskCompleteScreen() {
             alignment = Alignment.Center,
             contentScale = ContentScale.Fit
         )
+
+        Text(
+            text = "All tasks completed",
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier
+                .padding(top = 24.dp, bottom = 8.dp)
+        )
+
+        Text(
+            text = "Nice work!",
+            fontSize = 16.sp
+        )
     }
 }
 
